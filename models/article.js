@@ -13,7 +13,7 @@ Article.init({
   }
 }, {
   sequelize, 
-  modelName: 'article',
+  modelName: 'articles',
   freezeTableName: true,
   timestamps: false
   });

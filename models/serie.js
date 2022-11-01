@@ -22,7 +22,7 @@ Serie.init({
   },
 }, {
   sequelize, 
-  modelName: 'serie',
+  modelName: 'series',
   freezeTableName: true,
   timestamps: false
 });

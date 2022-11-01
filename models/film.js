@@ -22,7 +22,7 @@ Film.init({
   },
 }, {
   sequelize, 
-  modelName: 'film',
+  modelName: 'films',
   freezeTableName: true,
   timestamps: false
 });

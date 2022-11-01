@@ -11,12 +11,12 @@ Role.init({
     autoIncrement: true,
     allowNull: false
   },
- type: {
+ role_name: {
     type: DataTypes.STRING
   }
 }, {
   sequelize, 
-  modelName: 'role',
+  modelName: 'roles',
   freezeTableName: true,
   timestamps: false
   });
