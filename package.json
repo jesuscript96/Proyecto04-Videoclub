@@ -1,0 +1,28 @@
+{
+  "name": "proyecto04-videoclub",
+  "version": "0.0.1",
+  "description": "proyecto API",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jesuscript96/Proyecto04-Videoclub.git"
+  },
+  "author": "JVC",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jesuscript96/Proyecto04-Videoclub/issues"
+  },
+  "homepage": "https://github.com/jesuscript96/Proyecto04-Videoclub#readme",
+  "dependencies": {
+    "express": "4.18.2",
+    "mysql": "2.18.1",
+    "mysql2": "2.3.3",
+    "nodemon": "2.0.20",
+    "sequelize": "6.25.3",
+    "sequelize-cli": "6.5.2"
+  }
+}
