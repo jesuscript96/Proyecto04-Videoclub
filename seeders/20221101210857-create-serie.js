@@ -6,11 +6,14 @@ module.exports = {
     
      await queryInterface.bulkInsert('series', [
       {
-      id_serie: "1",
+      id_serie: 1,
       title: "Aida",
       genre: "Drama",
-      minAge: "12",
-      id_article: "1"
+      minAge: 12,
+      rating: 6,
+      chapter: true,
+      theater: false,
+      id_article: 1
     }
   ], {});
    

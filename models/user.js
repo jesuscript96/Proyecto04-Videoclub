@@ -1,7 +1,18 @@
 const { DataTypes, Model } = require("sequelize");
 const sequelize = require("../db/db");
 
-class User extends Model {};
+class User extends Model {
+  static associate(models) {
+    User.hasMany(models.order, {
+        foreignKey: 'mail',
+        as: 'user'
+    });
+    User.belongsTo(models.Folder, {
+        foreignKey: 'parent_id',
+        as: 'userRole'
+    });
+}
+};
 
 User.init({
     // Model attributes are defined here

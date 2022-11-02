@@ -6,10 +6,10 @@ module.exports = {
     
      await queryInterface.bulkInsert('articles', [
       {
-      id_article: "1"
+      id_article: 1
     },
     {
-      id_article: "2"
+      id_article: 2
     }
   ], {});
    

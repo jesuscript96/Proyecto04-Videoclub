@@ -19,6 +19,9 @@ module.exports = {
     minAge: {
       type: Sequelize.INTEGER
     },
+    rating: {
+      type: Sequelize.INTEGER
+    },
     id_article: {
         type: Sequelize.INTEGER,
         references: {

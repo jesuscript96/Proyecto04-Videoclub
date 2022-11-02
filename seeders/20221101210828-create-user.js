@@ -7,17 +7,17 @@ module.exports = {
      await queryInterface.bulkInsert('users', [
       {
       mail: "jesu@gmail.com",
-      birth_Date: "1996-01-11",
+      birth_Date: "1996-01-11 13:00:00",
       password: "eyyyyy",
       name: "jesus",
-      userRole: "1"
+      userRole: 1
     },
     {
       mail: "jesu2@gmail.com",
-      birth_Date: "1996-01-12",
+      birth_Date: "1996-01-12 13:00:00",
       password: "eyyyyy2",
       name: "jesus2",
-      userRole: "2"
+      userRole: 2
     }
   ], {});
    

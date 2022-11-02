@@ -2,7 +2,14 @@ const {DataTypes, Model } = require ("sequelize")
 
 const sequelize = require ("../db/db")
 
-class Film extends Model {}
+class Film extends Model {
+  static associate(models) {
+    Film.hasOne(models.article, {
+      foreignKey: 'id_article',
+      as: 'id_article'
+  });
+}
+}
 
 Film.init({
   id_film: {
@@ -20,6 +27,9 @@ Film.init({
   minAge: {
     type: DataTypes.INTEGER
   },
+  rating: {
+    type: DataTypes.INTEGER
+  }
 }, {
   sequelize, 
   modelName: 'films',

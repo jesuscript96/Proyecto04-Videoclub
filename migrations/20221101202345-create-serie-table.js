@@ -19,6 +19,15 @@ module.exports = {
     minAge: {
       type: Sequelize.INTEGER
     },
+    rating: {
+      type: Sequelize.INTEGER
+    },
+    chapter: {
+      type: Sequelize.BOOLEAN
+    },
+    theater: {
+      type: Sequelize.BOOLEAN
+    },
     id_article: {
         type: Sequelize.INTEGER,
         references: {

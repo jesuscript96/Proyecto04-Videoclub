@@ -6,18 +6,18 @@ module.exports = {
     
      await queryInterface.bulkInsert('orders', [
       {
-      id_order: "1",
-      startedAt: "2022-11-11",
-      endedAt: "2022-12-12",
+      id_order: 1,
+      startedAt: "2022-11-11 13:00:00",
+      endedAt: "2022-12-12 13:00:00",
       user: "jesu@gmail.com",
-      article: "1"
+      article: 1
     },
     {
-      id_order: "2",
-      startedAt: "2022-11-11",
-      endedAt: "2022-12-12",
+      id_order: 2,
+      startedAt: "2022-11-11 13:00:00",
+      endedAt: "2022-12-12 13:00:00",
       user: "jesu2@gmail.com",
-      article: "2"
+      article: 2
     }
   ], {});
    

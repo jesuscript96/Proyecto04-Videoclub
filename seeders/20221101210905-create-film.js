@@ -6,11 +6,12 @@ module.exports = {
     
      await queryInterface.bulkInsert('films', [
       {
-      id_film: "1",
+      id_film: 1,
       title: "Shrek",
       genre: "Comedia",
-      minAge: "12",
-      id_article: "2"
+      minAge: 12,
+      id_article: 2,
+      rating: 8
     }
   ], {});
    

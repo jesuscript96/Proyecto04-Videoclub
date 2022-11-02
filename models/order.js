@@ -2,7 +2,18 @@ const {DataTypes, Model } = require ("sequelize")
 
 const sequelize = require ("../db/db")
 
-class Order extends Model {}
+class Order extends Model {
+  static associate(models) {
+    Order.belongsTo(models.user, {
+      foreignKey: 'mail',
+      as: 'user'
+  });
+    Order.belongsTo(models.article, {
+        foreignKey: 'id_article',
+        as: 'article'
+    });
+}
+}
 
 Order.init({
   id_order: {
