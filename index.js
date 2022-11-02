@@ -1,11 +1,11 @@
 const express = require("express");
 const app = express();
 const db = require('./db/db')
-// const router = require("./router");
+const router = require("./router");
 const PORT = 3000;
 app.use(express.json());
 
-// app.use(router)
+app.use(router)
 
 app.listen(PORT, () => {
     console.log(`Servidor corriendo en el ${PORT}`)

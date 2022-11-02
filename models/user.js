@@ -1,3 +1,8 @@
+// 'use strict';
+// const {
+//   Model
+// } = require('sequelize');
+
 const { DataTypes, Model } = require("sequelize");
 const sequelize = require("../db/db");
 

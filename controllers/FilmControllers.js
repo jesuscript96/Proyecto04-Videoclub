@@ -1,11 +1,10 @@
 const Film = require('../models/film')
 
-
 const FilmController = {}
 
-ProfileController.getAllFilms = async (req, res) => {
+FilmController.getAllFilms = async (req, res) => {
     try {
-        Film.findAll()
+        let resp = await Film.findAll()
             .then(resp => {
                 res.send(resp)
             })
