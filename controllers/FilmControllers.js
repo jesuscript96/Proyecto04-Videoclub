@@ -1,7 +1,5 @@
 const Film = require('../models/film')
 
-const db = require("../db/db")
-
 const FilmController = {}
 
 FilmController.getAllFilms = async (req, res) => {
