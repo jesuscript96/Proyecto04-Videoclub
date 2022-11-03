@@ -28,10 +28,10 @@ Order.init({
     allowNull: false
   },
   startedAt: {
-    type: DataTypes.DATE
+    type: DataTypes.DATEONLY
   },
   endedAt: {
-    type: DataTypes.DATE
+    type: DataTypes.DATEONLY
   },
 }, {
   sequelize, 

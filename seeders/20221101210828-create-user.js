@@ -7,18 +7,40 @@ module.exports = {
      await queryInterface.bulkInsert('users', [
       {
       mail: "jesu@gmail.com",
-      birth_Date: "1996-01-11 13:00:00",
+      birth_Date: "1996-01-11",
       password: "eyyyyy",
       name: "jesus",
       userRole: 1
     },
     {
-      mail: "jesu2@gmail.com",
-      birth_Date: "1996-01-12 13:00:00",
+      mail: "christian@gmail.com",
+      birth_Date: "1996-01-12",
       password: "eyyyyy2",
-      name: "jesus2",
+      name: "christian",
+      userRole: 2
+    },
+    {
+      mail: "marcos@gmail.com",
+      birth_Date: "1996-01-12",
+      password: "eyyyyy2",
+      name: "marcos",
+      userRole: 2
+    },
+    {
+      mail: "lucas@gmail.com",
+      birth_Date: "1996-01-12",
+      password: "eyyyyy2",
+      name: "lucas",
+      userRole: 2
+    },
+    {
+      mail: "rodrigo@gmail.com",
+      birth_Date: "1996-01-12",
+      password: "eyyyyy2",
+      name: "rodrigo",
       userRole: 2
     }
+    
   ], {});
    
   },

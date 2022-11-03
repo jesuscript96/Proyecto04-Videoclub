@@ -18,4 +18,7 @@ router.put('/update/:mail' , UserController.updateUserById)
 // CRUD delete User - solo el admin
 router.delete('/delete/:mail' , UserController.deleteUserById)
 
+// CRUD READ Orders de un user
+router.get('/orders/:mail' , UserController.getOrdersFromUser)
+
 module.exports = router
