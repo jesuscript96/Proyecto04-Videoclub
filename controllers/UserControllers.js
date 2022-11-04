@@ -1,5 +1,4 @@
 const User = require('../models/user')
-const Order = require('../models/order')
 
 const UserController = {};
 
@@ -81,23 +80,6 @@ UserController.deleteUserById = async (req, res) => {
             res.send("No se ha podido eliminar el registro")
         }
 
-    } catch (err) {
-        res.send(err)
-    }
-}
-
-UserController.getOrdersFromUser = async (req, res) => {
-    try{
-        let mail = req.params.mail
-        let resp = await User.findAll({
-            where: { mail: mail},
-            include: {
-                model: Order,
-                attributes: ['id_order', 'startedAt', "endedAt"]
-            },
-            attributes: ['male', 'name']
-        })
-        res.send(resp)
     } catch (err) {
         res.send(err)
     }
