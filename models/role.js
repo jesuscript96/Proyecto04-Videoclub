@@ -9,10 +9,10 @@ const sequelize = require ("../db/db")
 
 class Role extends Model {
   static associate(models) {
-    Role.hasMany(models.user, {
-        foreignKey: 'id_role',
-        as: 'userRole'
-    })
+    // Role.hasMany(models.user, {
+    //     foreignKey: 'id_role',
+    //     as: 'userRole'
+    // })
 }
 }
 

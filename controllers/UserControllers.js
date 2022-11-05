@@ -36,7 +36,7 @@ UserController.postNewUser = async (req, res) => {
             birth_Date: data.birth_Date,
             password: data.password,
             name: data.name,
-            userRole: data.userRole
+            roleIdRole: data.roleIdRole
         })
 
         res.send(resp)
@@ -50,10 +50,9 @@ UserController.updateUserById = async (req, res) => {
         let data = req.body
         let resp = await User.update(
             {
-                birth_Date: data.birth_Date,
+                mail: data.mail,
                 password: data.password,
-                name: data.name,
-                userRole: data.userRole
+                name: data.name
             },
             {
                 where: { mail: data.mail }

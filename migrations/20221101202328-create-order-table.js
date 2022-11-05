@@ -16,7 +16,7 @@ module.exports = {
     endedAt: {
       type: Sequelize.DATEONLY
     },
-    user: {
+    userMail: {
         type: Sequelize.STRING,
         references: {
           model: "users",
@@ -25,7 +25,7 @@ module.exports = {
         onDelete: "cascade",
         onUpdate: "cascade"
     },
-    article: {
+    articleIdArticle: {
       type: Sequelize.INTEGER,
       references: {
         model: "articles",

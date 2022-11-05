@@ -4,6 +4,7 @@ const db = require('./db/db')
 const router = require("./router");
 const PORT = 3000;
 app.use(express.json());
+require('./models/associations.js');
 
 app.use(router)
 

@@ -9,18 +9,18 @@ const sequelize = require ("../db/db")
 
 class Article extends Model {
   static associate(models) {
-    Article.hasMany(models.order, {
-        foreignKey: 'id_article',
-        as: 'id_article'
-    });
-    Article.belongsTo(models.serie, {
-        foreignKey: 'id_article',
-        as: 'id_article'
-    });
-    Article.belongsTo(models.film, {
-      foreignKey: 'id_article',
-      as: 'id_article'
-  });
+  //   Article.hasMany(models.order, {
+  //       foreignKey: 'id_article',
+  //       as: 'id_article'
+  //   });
+  //   Article.belongsTo(models.serie, {
+  //       foreignKey: 'id_article',
+  //       as: 'id_article'
+  //   });
+  //   Article.belongsTo(models.film, {
+  //     foreignKey: 'id_article',
+  //     as: 'id_article'
+  // });
 }
 }
 

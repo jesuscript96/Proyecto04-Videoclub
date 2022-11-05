@@ -9,36 +9,36 @@ module.exports = {
       id_order: 1,
       startedAt: "2022-11-11",
       endedAt: "2022-12-12",
-      user: "jesu@gmail.com",
-      article: 1
+      userMail: "jesu@gmail.com",
+      articleIdArticle: 1
     },
     {
       id_order: 2,
       startedAt: "2022-07-11",
       endedAt: "2022-07-12",
-      user: "lucas@gmail.com",
-      article: 2
+      userMail: "lucas@gmail.com",
+      articleIdArticle: 2
     },
     {
       id_order: 3,
       startedAt: "2022-04-11",
       endedAt: "2022-04-12",
-      user: "rodrigo@gmail.com",
-      article: 6
+      userMail: "rodrigo@gmail.com",
+      articleIdArticle: 6
     },
     {
       id_order: 4,
       startedAt: "2022-01-11",
       endedAt: "2022-01-12",
-      user: "lucas@gmail.com",
-      article: 7
+      userMail: "lucas@gmail.com",
+      articleIdArticle: 7
     },
     {
       id_order: 5,
       startedAt: "2022-10-11",
       endedAt: "2022-10-12",
-      user: "marcos@gmail.com",
-      article: 5
+      userMail: "marcos@gmail.com",
+      articleIdArticle: 5
     }
   ], {});
    

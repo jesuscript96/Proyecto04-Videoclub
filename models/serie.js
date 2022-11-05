@@ -9,10 +9,10 @@ const sequelize = require ("../db/db")
 
 class Serie extends Model {
   static associate(models) {
-    Serie.hasOne(models.article, {
-        foreignKey: 'id_article',
-        as: 'id_article'
-    })
+    // Serie.hasOne(models.article, {
+    //     foreignKey: 'id_article',
+    //     as: 'id_article'
+    // })
 }
 }
 

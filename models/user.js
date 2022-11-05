@@ -5,19 +5,10 @@
 
 const { DataTypes, Model } = require("sequelize");
 const sequelize = require("../db/db");
+// const Order = require('./order.js')
+// const Role = require('./role.js')
 
-class User extends Model {
-  static associate(models) {
-    User.hasMany(models.order, {
-        foreignKey: 'mail',
-        as: 'user'
-    });
-    User.belongsTo(models.Folder, {
-        foreignKey: 'parent_id',
-        as: 'userRole'
-    });
-}
-};
+class User extends Model {};
 
 User.init({
     // Model attributes are defined here
@@ -30,9 +21,7 @@ User.init({
       },
       allowNull: false
     },
-    birth_Date: {
-      type: DataTypes.DATE
-    },
+    birth_Date: DataTypes.DATE,
     password: {
       type: DataTypes.STRING,
       validate: {
@@ -51,5 +40,13 @@ User.init({
     freezeTableName: true,
     timestamps: false
   });
+
+
+//   User.hasMany(Order, {
+//     foreignKey: 'user'
+// });
+// User.belongsTo(Role, {
+//     foreignKey: 'parent_id'
+// });
 
   module.exports = User;

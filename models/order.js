@@ -6,19 +6,10 @@
 const {DataTypes, Model } = require ("sequelize")
 
 const sequelize = require ("../db/db")
+// const User = require('./user.js')
+// const Article = require('./article.js')
 
-class Order extends Model {
-  static associate(models) {
-    Order.belongsTo(models.user, {
-      foreignKey: 'mail',
-      as: 'user'
-  });
-    Order.belongsTo(models.article, {
-        foreignKey: 'id_article',
-        as: 'article'
-    });
-}
-}
+class Order extends Model {}
 
 Order.init({
   id_order: {
@@ -39,5 +30,14 @@ Order.init({
   freezeTableName: true,
   timestamps: false
 });
+
+//   Order.belongsTo(User, {
+//     foreignKey: 'user'
+    
+// })
+//   Order.belongsTo(Article, {
+//       foreignKey: 'id_article'
+//   })
+
 
 module.exports = Order

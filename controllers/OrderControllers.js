@@ -7,6 +7,7 @@ const OrderController = {};
 OrderController.getOrdersFromUser = async (req, res) => {
     try{
         let mail = req.params.mail
+        console.log(mail)
         let resp = await User.findAll({
             where: { mail: mail},
             include: {
@@ -41,8 +42,8 @@ OrderController.postNewOrder = async (req, res) => {
         let resp = await Order.create({
             startedAt: data.startedAt,
             endedAt: data.endedAt,
-            user: data.user,
-            article: data.article
+            userMail: data.userMail,
+            articleIdArticle: data.articleIdArticle
 
         })
 

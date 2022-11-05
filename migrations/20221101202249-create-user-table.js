@@ -18,8 +18,10 @@ module.exports = {
     name: {
         type: Sequelize.STRING
       },
-    userRole: {
+    roleIdRole: {
         type: Sequelize.INTEGER,
+        default: 2,
+        // allowNull: false,
         references: {
           model: "roles",
           key: "id_role"
