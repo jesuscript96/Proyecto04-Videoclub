@@ -1,12 +1,13 @@
-const express = require("express");
-const app = express();
+require("dotenv").config({path: ".env"})
+
+const app = require("./app")
 const db = require('./db/db')
-const router = require("./router");
+
 const PORT = 3000;
-app.use(express.json());
+
 require('./models/associations.js');
 
-app.use(router)
+
 
 app.listen(PORT, () => {
     console.log(`Servidor corriendo en el ${PORT}`)
@@ -18,4 +19,6 @@ app.listen(PORT, () => {
     })
 
 })
+
+
 

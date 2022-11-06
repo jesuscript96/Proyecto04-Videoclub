@@ -19,4 +19,6 @@ Article.belongsTo(Serie)
 
 Film.hasOne(Article);
 Article.belongsTo(Film)
+
+
 console.log('associated');

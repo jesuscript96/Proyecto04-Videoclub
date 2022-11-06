@@ -24,9 +24,6 @@ User.init({
     birth_Date: DataTypes.DATE,
     password: {
       type: DataTypes.STRING,
-      validate: {
-          len: [1, 45]
-      }
     },
     name: {
         type: DataTypes.STRING,
