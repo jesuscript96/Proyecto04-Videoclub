@@ -6,7 +6,7 @@ Creación de la parte backend para una aplicación de alquiler de películas tom
 
 La base de datos cuenta de 6 tablas: Film y Series, que se relacionan con Artículos mediante una relación ISA, Loans, Users y Rols. Los usuarios podrán hacer un pedido de un artículo. Cada pedido es de un único artículo, pero cada usuario puede hacer cuantos pedidos quiera. Los usuarios podrán tener varios pedidos o ninguno, pero en un pedido solo podrá aparecer un usuario (1:N). Los artículos podrán aparecer en varios pedidos o en ninguno, pero en un pedido solo podrá aparecer una película (1:N). La relación entre tablas sería la siguiente:
 ***
-[![tablas-db.png](https://i.postimg.cc/26Psy31g/tablas-db.png)](https://postimg.cc/Q9J4n8kq)
+
 
 ## Pre-requisitos del proyecto para hacerlo funcionar en tu equipo local: 📌
 
@@ -129,13 +129,13 @@ Usamos el modelo vista-controlador para estructurar el proyecto. **Creamos un CR
 
 * **router.js**: En este archivo se gestiona las diferentes rutas que puede tener la aplicación. Se creará una ruta por cada tabla de la base de datos a la que queramos acceder, además de enrutar a los autenticadores
 
-[![routers.png](https://i.postimg.cc/pXMxCcsz/routers.png)](https://postimg.cc/rzjvFjXw)
+
 
 * **routes**
     * **FilmRoutes.js**: En este archivo gestionamos la ruta /films y los endpoints que apuntan a dicha ruta.
     * **seriesRoutes.js**: En este archivo gestionamos la ruta /series y los endpoints que apuntan a dicha ruta.
 
-    * **loansRoutes.js**: En este archivo gestionamos la ruta /orders y los endpoints que apuntan a dicha ruta.
+    * **OrdersRoutes.js**: En este archivo gestionamos la ruta /orders y los endpoints que apuntan a dicha ruta.
     
     * **usersRoutes.js**: En este archivo gestionamos la ruta /users y los endpoints que apuntan a dicha ruta.
 
