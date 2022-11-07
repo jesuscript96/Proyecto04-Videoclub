@@ -1,12 +1,12 @@
 const express = require("express");
 const router = express.Router();
 
-const { isValidRoleAdmin, authBearerMiddleware } = require("../middlewares/authMiddleware")
+const { isValidRoleAdmin, authBearerMiddleware, isValidUser } = require("../middlewares/authMiddleware")
 
 const OrderController = require('../controllers/OrderControllers')
 
 // CRUD READ Orders de un user
-router.get('/:mail', OrderController.getOrdersFromUser)
+router.get('/:mail', authBearerMiddleware, isValidUser, OrderController.getOrdersFromUser)
 
 // CRUD READ all Order - solo el admin
 router.get('/', authBearerMiddleware, isValidRoleAdmin, OrderController.getAllOrders)
