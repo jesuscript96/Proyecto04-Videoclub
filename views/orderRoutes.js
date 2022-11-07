@@ -12,9 +12,9 @@ router.get('/:mail', authBearerMiddleware, isValidUser, OrderController.getOrder
 router.get('/', authBearerMiddleware, isValidRoleAdmin, OrderController.getAllOrders)
 
 // CRUD CREATE Order
-router.post('/neworder', OrderController.postNewOrder)
+router.post('/neworder',authBearerMiddleware, isValidRoleAdmin, OrderController.postNewOrder)
 
 // CRUD Update Order
-router.put('/update/:id_order', OrderController.updateOrderById)
+router.put('/update/:id_order',authBearerMiddleware, isValidRoleAdmin, OrderController.updateOrderById)
 
 module.exports = router

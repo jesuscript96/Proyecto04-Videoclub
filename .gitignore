@@ -1,4 +1,5 @@
 node_modules
 associationsfalse.js
 .env
+logMiddleware.js
 
