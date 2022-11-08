@@ -5,6 +5,9 @@ Creación de la parte backend para una aplicación de alquiler de películas tom
 ## Base de datos 🧰
 
 La base de datos cuenta de 6 tablas: Film y Series, que se relacionan con Artículos mediante una relación ISA, Loans, Users y Rols. Los usuarios podrán hacer un pedido de un artículo. Cada pedido es de un único artículo, pero cada usuario puede hacer cuantos pedidos quiera. Los usuarios podrán tener varios pedidos o ninguno, pero en un pedido solo podrá aparecer un usuario (1:N). Los artículos podrán aparecer en varios pedidos o en ninguno, pero en un pedido solo podrá aparecer una película (1:N). La relación entre tablas sería la siguiente:
+
+![image](https://user-images.githubusercontent.com/108574820/200371541-dd214903-6349-4659-897e-4f5a39812c88.png)
+
 ***
 
 
@@ -133,6 +136,7 @@ Usamos el modelo vista-controlador para estructurar el proyecto. **Creamos un CR
 
 * **routes**
     * **FilmRoutes.js**: En este archivo gestionamos la ruta /films y los endpoints que apuntan a dicha ruta.
+    
     * **seriesRoutes.js**: En este archivo gestionamos la ruta /series y los endpoints que apuntan a dicha ruta.
 
     * **OrdersRoutes.js**: En este archivo gestionamos la ruta /orders y los endpoints que apuntan a dicha ruta.
