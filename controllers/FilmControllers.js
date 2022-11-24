@@ -1,5 +1,4 @@
 const Film = require('../models/film')
-
 const FilmController = {}
 
 FilmController.getAllFilms = async (req, res) => {
@@ -69,5 +68,6 @@ FilmController.getFilmByGenre = async (req, res) => {
         res.send(err)
     }
 }
+
 
 module.exports = FilmController

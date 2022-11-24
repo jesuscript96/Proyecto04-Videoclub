@@ -22,6 +22,9 @@ module.exports = {
     rating: {
       type: Sequelize.INTEGER
     },
+    poster: {
+      type: Sequelize.STRING
+    },
     id_article: {
         type: Sequelize.INTEGER,
         references: {

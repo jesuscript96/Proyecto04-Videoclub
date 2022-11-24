@@ -21,4 +21,7 @@ router.get('/upcoming' , SerieController.getUpcomingSeries)
 // CRUD READ series que están en el teatro
 router.get('/ontheater' , SerieController.getSeriesOnTheater)
 
+// CRUD READ Series de un user
+router.get('/:mail', SerieController.getSeriesFromUser)
+
 module.exports = router

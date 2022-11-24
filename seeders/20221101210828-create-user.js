@@ -29,7 +29,7 @@ module.exports = {
     {
       mail: "lucas@gmail.com",
       birth_Date: "1996-01-12",
-      password: "eyyyyy2",
+      password: "Lucas55555",
       name: "lucas",
       roleIdRole: 2
     },

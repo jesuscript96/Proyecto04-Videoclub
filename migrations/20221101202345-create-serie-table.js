@@ -19,6 +19,9 @@ module.exports = {
     minAge: {
       type: Sequelize.INTEGER
     },
+    poster: {
+      type: Sequelize.STRING
+    },
     rating: {
       type: Sequelize.INTEGER
     },

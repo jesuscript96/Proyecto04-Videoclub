@@ -1,6 +1,7 @@
 {
   "name": "proyecto04-videoclub",
   "version": "0.0.1",
+  "proxy": "http://localhost:3001",
   "description": "proyecto API",
   "main": "index.js",
   "scripts": {

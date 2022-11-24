@@ -9,7 +9,8 @@ const UserController = require('../controllers/UserControllers')
 router.get('/', authBearerMiddleware, isValidRoleAdmin, UserController.getAllUsers)
 
 // CRUD READ user
-router.get('/id/:mail', authBearerMiddleware, isValidUser, UserController.getUserById)
+// router.get('/id/:mail', authBearerMiddleware, isValidUser, UserController.getUserById)
+router.get('/id/:mail', UserController.getUserById)
 
 // CRUD Update User
 router.put('/update/:mail', authBearerMiddleware, isValidUser, UserController.updateUserById)

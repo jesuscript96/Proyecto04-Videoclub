@@ -11,12 +11,15 @@ const {
 const jsonwebtoken = require ("jsonwebtoken"); 
 
 async function authRegisterController(req, res) {
+
     const body = req.body;
-    // validate password
+    console.log("soy el req body: ", req.body)
+
     try {
       assertValidPasswordService(body.password);
     } catch (error) {
       console.error(error);
+      
       res.status(400).json({ message: "Invalid password: " + error.message });
       return;
     }
@@ -56,6 +59,7 @@ async function authRegisterController(req, res) {
 
     try {
       const { mail, password } = req.body;
+      console.log(req.body)
     const userFound = await User.findOne({where :{ mail: mail }});
     if (!userFound) {
       res.status(401).json({ message: "Password or email is incorrect" });
@@ -83,6 +87,8 @@ async function authRegisterController(req, res) {
     res.status(200).json({
       message: "Login successful",
       jwt: jwt,
+      role: userFound.roleIdRole,
+      mail: userFound.mail
     });
     } catch (error) {
       console.error(error);

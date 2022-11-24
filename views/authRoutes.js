@@ -7,6 +7,8 @@ const {
     authRegisterController,
 } = require("../controllers/authControllers.js");
 
+// const {corsMiddleware} = require ("../middlewares/corsMiddleware")
+
 
 authRouter.post("/login", authLoginController);
 authRouter.post("/register", authRegisterController);

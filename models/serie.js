@@ -32,6 +32,10 @@ Serie.init({
   minAge: {
     type: DataTypes.INTEGER
   },
+  poster: {
+    type: DataTypes.STRING,
+   len: [1, 300],
+     },
   rating: {
     type: DataTypes.INTEGER
   },

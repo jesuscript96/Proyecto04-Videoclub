@@ -7,18 +7,22 @@ const OrderController = {};
 OrderController.getOrdersFromUser = async (req, res) => {
     try{
         let mail = req.params.mail
-        console.log(mail)
-        let resp = await User.findAll({
+        let user = await User.findOne({
             where: { mail: mail},
             include: {
                 model: Order,
-                attributes: ['id_order', 'startedAt', "endedAt"]
-            },
-            attributes: ['mail', 'name']
+                attributes: ['id_order', 'startedAt', "endedAt", "articleIdArticle"]
+            }
+            // attributes: ['mail', 'name']
         })
-        res.send(resp)
+        if (!user) {
+            res.status(400).send('user not found')
+            return;
+        } 
+        // console.log('user found:', user)
+        res.status(200).json(user.orders)
     } catch (error) {
-        res.send(error)
+        res.status(500).send(error)
         console.log(error)
     }
 }
