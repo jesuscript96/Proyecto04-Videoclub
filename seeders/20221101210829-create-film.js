@@ -11,7 +11,7 @@ module.exports = {
       genre: "Comedia",
       minAge: 12,
       poster: "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/b0MxU37dNmMwKtoPVYPKOZSIrIn.jpg",
-      id_article: 11,
+      
       rating: 1
     },
     {
@@ -20,7 +20,7 @@ module.exports = {
       genre: "Infantil",
       minAge: 12,
       poster: "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/b0MxU37dNmMwKtoPVYPKOZSIrIn.jpg",
-      id_article: 12,
+     
       rating: 2
     },
     {
@@ -29,7 +29,7 @@ module.exports = {
       genre: "Accion",
       minAge: 12,
       poster: "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/b0MxU37dNmMwKtoPVYPKOZSIrIn.jpg",
-      id_article: 13,
+      
       rating: 3
     },
     {
@@ -38,7 +38,7 @@ module.exports = {
       genre: "Ciencia ficcion",
       minAge: 12,
       poster: "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/b0MxU37dNmMwKtoPVYPKOZSIrIn.jpg",
-      id_article: 14,
+      
       rating: 4
     },
     {
@@ -47,7 +47,7 @@ module.exports = {
       genre: "Infantil",
       minAge: 12,
       poster: "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/b0MxU37dNmMwKtoPVYPKOZSIrIn.jpg",
-      id_article: 15,
+      
       rating: 5
     },
     {
@@ -56,7 +56,7 @@ module.exports = {
       genre: "Accion",
       minAge: 12,
       poster: "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/b0MxU37dNmMwKtoPVYPKOZSIrIn.jpg",
-      id_article: 16,
+      
       rating: 6
     },
     {
@@ -65,7 +65,7 @@ module.exports = {
       genre: "Accion",
       minAge: 12,
       poster: "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/b0MxU37dNmMwKtoPVYPKOZSIrIn.jpg",
-      id_article: 17,
+      
       rating: 7
     },
     {
@@ -74,7 +74,7 @@ module.exports = {
       genre: "Accion",
       minAge: 12,
       poster: "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/b0MxU37dNmMwKtoPVYPKOZSIrIn.jpg",
-      id_article: 18,
+      
       rating: 8
     },
     {
@@ -83,7 +83,7 @@ module.exports = {
       genre: "Comedia",
       minAge: 12,
       poster: "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/b0MxU37dNmMwKtoPVYPKOZSIrIn.jpg",
-      id_article: 19,
+      
       rating: 9
     },
     {
@@ -92,7 +92,7 @@ module.exports = {
       genre: "Comedia",
       minAge: 12,
       poster: "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/b0MxU37dNmMwKtoPVYPKOZSIrIn.jpg",
-      id_article: 20,
+      
       rating: 10
     }
   ], {});

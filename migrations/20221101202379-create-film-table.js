@@ -3,8 +3,8 @@
 /** @type {import('sequelize-cli').Migration} */
 module.exports = {
   async up (queryInterface, Sequelize) {
-   await queryInterface.createTable("series", {
-    id_serie: {
+   await queryInterface.createTable("films", {
+    id_film: {
       type: Sequelize.INTEGER,
       primaryKey: true,
       autoIncrement: true,
@@ -19,27 +19,12 @@ module.exports = {
     minAge: {
       type: Sequelize.INTEGER
     },
-    poster: {
-      type: Sequelize.STRING
-    },
     rating: {
       type: Sequelize.INTEGER
     },
-    chapter: {
-      type: Sequelize.BOOLEAN
-    },
-    theater: {
-      type: Sequelize.BOOLEAN
-    },
-    id_article: {
-        type: Sequelize.INTEGER,
-        references: {
-          model: "articles",
-          key: "id_article"
-        },
-        onDelete: "cascade",
-        onUpdate: "cascade"
-    }  
+    poster: {
+      type: Sequelize.STRING
+    } 
    });
   },
 
@@ -52,4 +37,3 @@ module.exports = {
      */
   }
 };
-

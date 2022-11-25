@@ -11,7 +11,7 @@ OrderController.getOrdersFromUser = async (req, res) => {
             where: { mail: mail},
             include: {
                 model: Order,
-                attributes: ['id_order', 'startedAt', "endedAt", "articleIdArticle"]
+                attributes: ['id_order', 'startedAt', "endedAt", "filmIdFilm"]
             }
             // attributes: ['mail', 'name']
         })
@@ -47,7 +47,7 @@ OrderController.postNewOrder = async (req, res) => {
             startedAt: data.startedAt,
             endedAt: data.endedAt,
             userMail: data.userMail,
-            articleIdArticle: data.articleIdArticle
+            filmIdFilm: data.filmIdFilm
 
         })
 
