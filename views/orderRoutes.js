@@ -11,7 +11,8 @@ router.get('/:mail', OrderController.getOrdersFromUser)
 
 
 // CRUD READ all Order - solo el admin
-router.get('/', authBearerMiddleware, isValidRoleAdmin, OrderController.getAllOrders)
+// router.get('/', authBearerMiddleware, isValidRoleAdmin, OrderController.getAllOrders)
+router.get('/', OrderController.getAllOrders)
 
 // CRUD CREATE Order
 router.post('/neworder',authBearerMiddleware, OrderController.postNewOrder)

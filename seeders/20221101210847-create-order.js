@@ -9,7 +9,7 @@ module.exports = {
       id_order: 1,
       startedAt: "2022-11-11",
       endedAt: "2022-12-12",
-      userMail: "jesu@gmail.com",
+      userMail: "prueba@prueba.com",
       articleIdArticle: 1
     },
     {
