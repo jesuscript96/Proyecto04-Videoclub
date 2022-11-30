@@ -32,7 +32,7 @@ const authBearerMiddleware = async (req, res, next) => {
     if (strategy.toLowerCase() !== "bearer") {
       throw new Error("Invalid strategy");
     }
-    const payload = jsonwebtoken.verify(jwt, process.env.JWT_SECRET);
+    const payload = jsonwebtoken.verify(jwt.replaceAll('"', ''), process.env.JWT_SECRET);
 
     const created = payload.created;
 
