@@ -24,6 +24,9 @@ module.exports = {
     },
     poster: {
       type: Sequelize.STRING
+    },
+    sinopsis: {
+      type: Sequelize.TEXT
     } 
    });
   },

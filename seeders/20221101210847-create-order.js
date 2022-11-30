@@ -10,6 +10,7 @@ module.exports = {
       startedAt: "2022-11-11",
       endedAt: "2022-12-12",
       userMail: "prueba@prueba.com",
+      filmIdFilm: 1
       
     },
     {
@@ -17,6 +18,7 @@ module.exports = {
       startedAt: "2022-07-11",
       endedAt: "2022-07-12",
       userMail: "lucas@gmail.com",
+      filmIdFilm: 2
       
     },
     {
@@ -24,6 +26,7 @@ module.exports = {
       startedAt: "2022-04-11",
       endedAt: "2022-04-12",
       userMail: "rodrigo@gmail.com",
+      filmIdFilm: 3
       
     },
     {
@@ -31,14 +34,15 @@ module.exports = {
       startedAt: "2022-01-11",
       endedAt: "2022-01-12",
       userMail: "lucas@gmail.com",
+      filmIdFilm: 4
       
     },
     {
       id_order: 5,
       startedAt: "2022-10-11",
       endedAt: "2022-10-12",
-      userMail: "marcos@gmail.com",
-      
+      userMail: "marcos@gmail.com",      
+      filmIdFilm: 5
     }
   ], {});
    

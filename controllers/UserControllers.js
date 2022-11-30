@@ -50,8 +50,8 @@ UserController.updateUserById = async (req, res) => {
         let data = req.body
         let resp = await User.update(
             {
-                mail: data.mail,
-                password: data.password,
+                // mail: data.mail,
+                // password: data.password,
                 name: data.name
             },
             {

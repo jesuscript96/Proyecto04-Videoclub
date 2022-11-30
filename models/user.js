@@ -21,7 +21,7 @@ User.init({
       },
       allowNull: false
     },
-    birth_Date: DataTypes.DATE,
+    birth_Date: DataTypes.DATEONLY,
     password: {
       type: DataTypes.STRING,
     },

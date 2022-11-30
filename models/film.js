@@ -38,6 +38,9 @@ Film.init({
      },
   rating: {
     type: DataTypes.INTEGER
+  },
+  sinopsis: {
+    type: DataTypes.TEXT
   }
 }, {
   sequelize, 

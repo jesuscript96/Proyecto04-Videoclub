@@ -1,3 +1,4 @@
+const Film = require('../models/film');
 const Order = require('../models/order')
 const User = require('../models/user')
 
@@ -11,7 +12,11 @@ OrderController.getOrdersFromUser = async (req, res) => {
             where: { mail: mail},
             include: {
                 model: Order,
-                attributes: ['id_order', 'startedAt', "endedAt", "filmIdFilm"]
+                attributes: ['id_order', 'startedAt', "endedAt", "filmIdFilm"],
+                include: {
+                    model: Film,
+                    attributes: ["title", "genre", "poster"],
+                }
             }
             // attributes: ['mail', 'name']
         })
@@ -30,6 +35,10 @@ OrderController.getOrdersFromUser = async (req, res) => {
 OrderController.getAllOrders = async (req, res) => {
     try {
         let resp = await Order.findAll({
+            include: {
+                model: Film,
+                attributes: ["title", "genre", "poster"],
+            }
         })
             .then(resp => {
                 res.send(resp)
