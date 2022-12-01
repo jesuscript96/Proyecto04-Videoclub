@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/jesuscript96/Proyecto04-Videoclub#readme",
   "dependencies": {
+    "cors": "^2.8.5",
     "dotenv": "^16.0.3",
     "express": "4.18.2",
     "jsonwebtoken": "^8.5.1",

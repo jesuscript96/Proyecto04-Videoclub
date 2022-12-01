@@ -1,5 +1,5 @@
 const User = require("../models/user");
-
+require("dotenv").config()
 const {
     assertValidPasswordService,
     assertEmailIsUniqueService,
@@ -71,7 +71,7 @@ async function authRegisterController(req, res) {
       return;
     }
   
-    const secret = process.env.JWT_SECRET || '';
+    const secret = process.env.JWT_SECRET ;
   
     if (secret.length < 10) {
       throw new Error("JWT_SECRET is not set");
