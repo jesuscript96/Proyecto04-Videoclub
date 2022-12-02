@@ -76,7 +76,7 @@ UserController.deleteUserById = async (req, res) => {
         if (resp == 1) {
             res.send("Se ha eliminado el perfil correctamente")
         } else {
-            res.send("No se ha podido eliminar el registro")
+            res.status(400).send("No se ha podido eliminar el registro")
         }
 
     } catch (err) {
