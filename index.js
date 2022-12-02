@@ -3,7 +3,7 @@ require("dotenv").config({path: ".env"})
 const app = require("./app")
 const db = require('./db/db')
 
-const PORT = process.env.MYSQL_PORT || 3000;
+let PORT = process.env.YOUR_PORT || process.env.PORT || 3000;
 
 require('./models/associations.js');
 
