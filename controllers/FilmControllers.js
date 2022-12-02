@@ -1,6 +1,8 @@
 const Film = require('../models/film')
 const FilmController = {}
 
+const { Op } = require("sequelize");
+
 FilmController.getAllFilms = async (req, res) => {
     try {
         let resp = await Film.findAll({
@@ -44,11 +46,15 @@ FilmController.getFilmById = async (req, res) => {
 FilmController.getFilmByTitle = async (req, res) => {
     try {
         let title = req.params.title
-        let resp = await Film.findOne({
-            where: {title: title}
+        let resp = await Film.findAll({
+            where: {title: 
+            {
+                [Op.like] : `%${title}%`
+            }
+            }
         })
-            .then(resp => {
-                res.send(resp)
+        .then(resp => {
+            res.send(resp)
             })
     } catch (err) {
         res.send(err)
