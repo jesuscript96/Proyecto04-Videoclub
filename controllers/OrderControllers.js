@@ -17,6 +17,7 @@ OrderController.getOrdersFromUser = async (req, res) => {
                 include: {
                     model: Film,
                     attributes: ["title", "genre", "poster"],
+                    
                 }
             }
             // attributes: ['mail', 'name']
@@ -94,6 +95,7 @@ OrderController.getAllOrders = async (req, res) => {
             include: {
                 model: Film,
                 attributes: ["title", "genre", "poster"],
+                
             }
         })
             .then(resp => {

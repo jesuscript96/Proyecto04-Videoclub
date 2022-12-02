@@ -1,6 +1,8 @@
 const { isValidUserAndPassword } = require("../services/authServices");
 const jsonwebtoken = require("jsonwebtoken");
-const User = require("../models/user")
+const User = require("../models/user");
+require("dotenv").config();
+
 
 const authBasicMiddleware = async (req, res, next) => {
   const { authorization } = req.headers;
