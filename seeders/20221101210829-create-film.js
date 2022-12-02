@@ -275,6 +275,186 @@ module.exports = {
       rating: 7,
      sinopsis: "Monsters Inc. es la mayor empresa de miedo del mundo, y James P. Sullivan es uno de sus mejores empleados. Asustar a los niños no es un trabajo fácil, ya que todos creen que los niños son tóxicos y no pueden tener contacto con ellos. Pero un día una niña se cuela sin querer en la empresa, provocando el caos."
        },
+    {
+      id_film: 31,
+      title: "Superman",
+      genre: "Acción",
+      minAge: 12,
+      poster: "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/esDQ66ANmrYR87NxAoP5IpErqwa.jpg",
+      rating: 7,
+     sinopsis: "Desde una galaxia remota, un recién nacido es enviado por sus padres al espacio debido a la inminente destrucción del planeta donde viven. La nave aterriza en la Tierra, y el niño es adoptado por unos granjeros que le inculcan los mejores valores humanos. Con los años el joven se irá a Metrópolis y allí usará sus poderes sobrenaturales para luchar contra el mal..."
+       },
+    {
+      id_film: 33,
+      title: "Black Adam",
+      genre: "Acción",
+      minAge: 12,
+      poster: "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/moDLTCdLx38kMhN53KOTw0LdWMh.jpg",
+      rating: 5,
+     sinopsis: "Casi 5.000 años después de haber sido dotado de los poderes omnipotentes de los antiguos dioses y encarcelado con la misma rapidez, Black Adam es liberado de su tumba terrenal, listo para desatar su forma única de justicia en el mundo moderno."
+       },
+    {
+      id_film: 33,
+      title: "Thor",
+      genre: "Acción",
+      minAge: 12,
+      poster: "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/z9ajF6E39Hg2pXUofmUYgZHvdX.jpg",
+      rating: 7,
+     sinopsis: "El Dios del Trueno emprende un viaje que no se parece en nada a lo que se ha enfrentado hasta ahora: una búsqueda de la paz interior. Pero el retiro de Thor se ve interrumpido por un asesino galáctico conocido como Gorr el Carnicero de Dioses. Para hacer frente a la amenaza, Thor solicita la ayuda de Valkiria, de Korg y de su ex novia Jane Foster que, para sorpresa de Thor, empuña su martillo mágico, Mjolnir, como la Poderosa Thor. Juntos, se embarcan en una aventura cósmica en la que tendrán que descubrir el misterio de la venganza del Carnicero de Dioses y detenerlo antes de que sea demasiado tarde."
+       },
+    {
+      id_film: 34,
+      title: "Spider-Man: No Way Home",
+      genre: "Acción",
+      minAge: 12,
+      poster: "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/miZFgV81xG324rpUknQX8dtXuBl.jpg",
+      rating: 8,
+     sinopsis: "Peter Parker es desenmascarado y por tanto no es capaz de separar su vida normal de los enormes riesgos que conlleva ser un súper héroe. Cuando pide ayuda a Doctor Strange, los riesgos pasan a ser aún más peligrosos, obligándole a descubrir lo que realmente significa ser Spider-Man."
+       },
+    {
+      id_film: 35,
+      title: "Vengadores: Infinity War",
+      genre: "Acción",
+      minAge: 12,
+      poster: "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/ksBQ4oHQDdJwND8H90ay8CbMihU.jpg",
+      rating: 9,
+     sinopsis: "El todopoderoso Thanos ha despertado con la promesa de arrasar con todo a su paso, portando el Guantelete del Infinito, que le confiere un poder incalculable. Los únicos capaces de pararle los pies son los Vengadores y el resto de superhéroes de la galaxia, que deberán estar dispuestos a sacrificarlo todo por un bien mayor. Capitán América e Ironman deberán limar sus diferencias, Black Panther apoyará con sus tropas desde Wakanda, Thor y los Guardianes de la Galaxia e incluso Spider-Man se unirán antes de que los planes de devastación y ruina pongan fin al universo. ¿Serán capaces de frenar el avance del titán del caos?"
+       },
+    {
+      id_film: 36,
+      title: "Monstruos S.A.",
+      genre: "Infantil",
+      minAge: 3,
+      poster: "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/jTE3BLVCpYaR71L2U8SHV22HvEr.jpg",
+      rating: 5,
+     sinopsis: "Monsters Inc. es la mayor empresa de miedo del mundo, y James P. Sullivan es uno de sus mejores empleados. Asustar a los niños no es un trabajo fácil, ya que todos creen que los niños son tóxicos y no pueden tener contacto con ellos. Pero un día una niña se cuela sin querer en la empresa, provocando el caos."
+       },
+    {
+      id_film: 37,
+      title: "Monstruos S.A.",
+      genre: "Infantil",
+      minAge: 3,
+      poster: "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/jTE3BLVCpYaR71L2U8SHV22HvEr.jpg",
+      rating: 7,
+     sinopsis: "Monsters Inc. es la mayor empresa de miedo del mundo, y James P. Sullivan es uno de sus mejores empleados. Asustar a los niños no es un trabajo fácil, ya que todos creen que los niños son tóxicos y no pueden tener contacto con ellos. Pero un día una niña se cuela sin querer en la empresa, provocando el caos."
+       },
+    {
+      id_film: 38,
+      title: "Monstruos S.A.",
+      genre: "Infantil",
+      minAge: 3,
+      poster: "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/jTE3BLVCpYaR71L2U8SHV22HvEr.jpg",
+      rating: 10,
+     sinopsis: "Monsters Inc. es la mayor empresa de miedo del mundo, y James P. Sullivan es uno de sus mejores empleados. Asustar a los niños no es un trabajo fácil, ya que todos creen que los niños son tóxicos y no pueden tener contacto con ellos. Pero un día una niña se cuela sin querer en la empresa, provocando el caos."
+       },
+    {
+      id_film: 39,
+      title: "Monstruos S.A.",
+      genre: "Infantil",
+      minAge: 3,
+      poster: "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/jTE3BLVCpYaR71L2U8SHV22HvEr.jpg",
+      rating: 7,
+     sinopsis: "Monsters Inc. es la mayor empresa de miedo del mundo, y James P. Sullivan es uno de sus mejores empleados. Asustar a los niños no es un trabajo fácil, ya que todos creen que los niños son tóxicos y no pueden tener contacto con ellos. Pero un día una niña se cuela sin querer en la empresa, provocando el caos."
+       },
+    {
+      id_film: 40,
+      title: "Monstruos S.A.",
+      genre: "Infantil",
+      minAge: 3,
+      poster: "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/jTE3BLVCpYaR71L2U8SHV22HvEr.jpg",
+      rating: 8,
+     sinopsis: "Monsters Inc. es la mayor empresa de miedo del mundo, y James P. Sullivan es uno de sus mejores empleados. Asustar a los niños no es un trabajo fácil, ya que todos creen que los niños son tóxicos y no pueden tener contacto con ellos. Pero un día una niña se cuela sin querer en la empresa, provocando el caos."
+       },
+    {
+      id_film: 41,
+      title: "Monstruos S.A.",
+      genre: "Infantil",
+      minAge: 3,
+      poster: "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/jTE3BLVCpYaR71L2U8SHV22HvEr.jpg",
+      rating: 5,
+     sinopsis: "Monsters Inc. es la mayor empresa de miedo del mundo, y James P. Sullivan es uno de sus mejores empleados. Asustar a los niños no es un trabajo fácil, ya que todos creen que los niños son tóxicos y no pueden tener contacto con ellos. Pero un día una niña se cuela sin querer en la empresa, provocando el caos."
+       },
+    {
+      id_film: 42,
+      title: "Monstruos S.A.",
+      genre: "Infantil",
+      minAge: 3,
+      poster: "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/jTE3BLVCpYaR71L2U8SHV22HvEr.jpg",
+      rating: 7,
+     sinopsis: "Monsters Inc. es la mayor empresa de miedo del mundo, y James P. Sullivan es uno de sus mejores empleados. Asustar a los niños no es un trabajo fácil, ya que todos creen que los niños son tóxicos y no pueden tener contacto con ellos. Pero un día una niña se cuela sin querer en la empresa, provocando el caos."
+       },
+    {
+      id_film: 43,
+      title: "Monstruos S.A.",
+      genre: "Infantil",
+      minAge: 3,
+      poster: "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/jTE3BLVCpYaR71L2U8SHV22HvEr.jpg",
+      rating: 8,
+     sinopsis: "Monsters Inc. es la mayor empresa de miedo del mundo, y James P. Sullivan es uno de sus mejores empleados. Asustar a los niños no es un trabajo fácil, ya que todos creen que los niños son tóxicos y no pueden tener contacto con ellos. Pero un día una niña se cuela sin querer en la empresa, provocando el caos."
+       },
+    {
+      id_film: 44,
+      title: "Monstruos S.A.",
+      genre: "Infantil",
+      minAge: 3,
+      poster: "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/jTE3BLVCpYaR71L2U8SHV22HvEr.jpg",
+      rating: 7,
+     sinopsis: "Monsters Inc. es la mayor empresa de miedo del mundo, y James P. Sullivan es uno de sus mejores empleados. Asustar a los niños no es un trabajo fácil, ya que todos creen que los niños son tóxicos y no pueden tener contacto con ellos. Pero un día una niña se cuela sin querer en la empresa, provocando el caos."
+       },
+    {
+      id_film: 45,
+      title: "Monstruos S.A.",
+      genre: "Infantil",
+      minAge: 3,
+      poster: "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/jTE3BLVCpYaR71L2U8SHV22HvEr.jpg",
+      rating: 9,
+     sinopsis: "Monsters Inc. es la mayor empresa de miedo del mundo, y James P. Sullivan es uno de sus mejores empleados. Asustar a los niños no es un trabajo fácil, ya que todos creen que los niños son tóxicos y no pueden tener contacto con ellos. Pero un día una niña se cuela sin querer en la empresa, provocando el caos."
+       },
+    {
+      id_film: 46,
+      title: "Monstruos S.A.",
+      genre: "Infantil",
+      minAge: 3,
+      poster: "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/jTE3BLVCpYaR71L2U8SHV22HvEr.jpg",
+      rating: 7,
+     sinopsis: "Monsters Inc. es la mayor empresa de miedo del mundo, y James P. Sullivan es uno de sus mejores empleados. Asustar a los niños no es un trabajo fácil, ya que todos creen que los niños son tóxicos y no pueden tener contacto con ellos. Pero un día una niña se cuela sin querer en la empresa, provocando el caos."
+       },
+    {
+      id_film: 47,
+      title: "Monstruos S.A.",
+      genre: "Infantil",
+      minAge: 3,
+      poster: "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/jTE3BLVCpYaR71L2U8SHV22HvEr.jpg",
+      rating: 8,
+     sinopsis: "Monsters Inc. es la mayor empresa de miedo del mundo, y James P. Sullivan es uno de sus mejores empleados. Asustar a los niños no es un trabajo fácil, ya que todos creen que los niños son tóxicos y no pueden tener contacto con ellos. Pero un día una niña se cuela sin querer en la empresa, provocando el caos."
+       },
+    {
+      id_film: 48,
+      title: "Monstruos S.A.",
+      genre: "Infantil",
+      minAge: 3,
+      poster: "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/jTE3BLVCpYaR71L2U8SHV22HvEr.jpg",
+      rating: 6,
+     sinopsis: "Monsters Inc. es la mayor empresa de miedo del mundo, y James P. Sullivan es uno de sus mejores empleados. Asustar a los niños no es un trabajo fácil, ya que todos creen que los niños son tóxicos y no pueden tener contacto con ellos. Pero un día una niña se cuela sin querer en la empresa, provocando el caos."
+       },
+    {
+      id_film: 49,
+      title: "Monstruos S.A.",
+      genre: "Infantil",
+      minAge: 3,
+      poster: "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/jTE3BLVCpYaR71L2U8SHV22HvEr.jpg",
+      rating: 8,
+     sinopsis: "Monsters Inc. es la mayor empresa de miedo del mundo, y James P. Sullivan es uno de sus mejores empleados. Asustar a los niños no es un trabajo fácil, ya que todos creen que los niños son tóxicos y no pueden tener contacto con ellos. Pero un día una niña se cuela sin querer en la empresa, provocando el caos."
+       },
+    {
+      id_film: 50,
+      title: "Monstruos S.A.",
+      genre: "Infantil",
+      minAge: 3,
+      poster: "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/jTE3BLVCpYaR71L2U8SHV22HvEr.jpg",
+      rating: 9,
+     sinopsis: "Monsters Inc. es la mayor empresa de miedo del mundo, y James P. Sullivan es uno de sus mejores empleados. Asustar a los niños no es un trabajo fácil, ya que todos creen que los niños son tóxicos y no pueden tener contacto con ellos. Pero un día una niña se cuela sin querer en la empresa, provocando el caos."
+       },
   ], {});
    
   },

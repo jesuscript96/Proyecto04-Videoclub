@@ -1,6 +1,8 @@
 const { isValidUserAndPassword } = require("../services/authServices");
 const jsonwebtoken = require("jsonwebtoken");
-const User = require("../models/user")
+const User = require("../models/user");
+require("dotenv").config();
+
 
 const authBasicMiddleware = async (req, res, next) => {
   const { authorization } = req.headers;
@@ -32,7 +34,7 @@ const authBearerMiddleware = async (req, res, next) => {
     if (strategy.toLowerCase() !== "bearer") {
       throw new Error("Invalid strategy");
     }
-    const payload = jsonwebtoken.verify(jwt, process.env.JWT_SECRET);
+    const payload = jsonwebtoken.verify(jwt.replaceAll('"', ''), process.env.JWT_SECRET);
 
     const created = payload.created;
 
