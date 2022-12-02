@@ -1,11 +1,11 @@
 {
   "development": {
     "username": "root",
-    "password": "root",
-    "database": "videoclub",
-    "host": "localhost",
+    "password": "CbYsFuyQ1dFKf7bmMILB",
+    "database": "railway",
+    "host": "containers-us-west-140.railway.app",
     "dialect": "mysql",
-    "port": "33060"
+    "port": "5906"
   },
   "test": {
     "username": "root",
@@ -16,9 +16,10 @@
   },
   "production": {
     "username": "root",
-    "password": null,
-    "database": "database_production",
-    "host": "127.0.0.1",
-    "dialect": "mysql"
+    "password": "CbYsFuyQ1dFKf7bmMILB",
+    "database": "railway",
+    "host": "containers-us-west-140.railway.app",
+    "dialect": "mysql",
+    "port": "5906"
   }
 }

@@ -64,7 +64,7 @@ sequelize.sync({force:true})
 
 [![syncforcetrue.png](https://i.postimg.cc/HxFXc14r/syncforcetrue.png)](https://postimg.cc/1ncf2TdS)
 
-Ahora deberemos guardar y dejar que se generen las tablas en la base de datos. Una vez finalizada la creación, deberemos volver a cambiar el código 
+Ahora deberemos guardar y dejar que se generen las tablas en la base de datos. Una vez finalizada la creacion, deberemos volver a cambiar el código 
 
 ````
 sequelize.authenticate()
