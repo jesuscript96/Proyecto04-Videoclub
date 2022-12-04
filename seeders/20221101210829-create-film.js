@@ -8,7 +8,7 @@ module.exports = {
       {
       id_film: 1,
       title: "Shrek",
-      genre: "Comedia",
+      genre: "Infantil",
       minAge: 12,
       poster: "https://www.themoviedb.org/t/p/w1280/jTQONM7jt1yv2lL972TtmWO0UIZ.jpg",
          rating: 1,
@@ -26,7 +26,7 @@ module.exports = {
     {
       id_film: 3,
       title: "Batman",
-      genre: "Accion",
+      genre: "Acción",
       minAge: 12,
       poster: "https://www.themoviedb.org/t/p/w1280/kbeWnmnHNEnuVej6wcjUv0eY6IL.jpg",
       rating: 3,
@@ -35,7 +35,7 @@ module.exports = {
     {
       id_film: 4,
       title: "Origen",
-      genre: "Ciencia ficcion",
+      genre: "Acción",
       minAge: 12,
       poster: "https://www.themoviedb.org/t/p/w1280/tXQvtRWfkUUnWJAn2tN3jERIUG.jpg",
       rating: 4,
@@ -53,7 +53,7 @@ module.exports = {
     {
       id_film: 6,
       title: "Transporter",
-      genre: "Accion",
+      genre: "Acción",
       minAge: 12,
       poster: "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/gEiyyNU0CVZBgmH08l3GMgw4BfZ.jpg",
       rating: 6,
@@ -62,7 +62,7 @@ module.exports = {
     {
       id_film: 7,
       title: "Seven",
-      genre: "Accion",
+      genre: "Acción",
       minAge: 12,
       poster: "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/uVPcVz4b2hnSGrXYLdIGRXwcivs.jpg",
       rating: 7,
@@ -71,7 +71,7 @@ module.exports = {
     {
       id_film: 8,
       title: "El Francotirador",
-      genre: "Accion",
+      genre: "Acción",
       minAge: 12,
       poster: "https://www.themoviedb.org/t/p/w1280/kSAdNmbIcmjtZrf9qtFwgHhZxl3.jpg",
       rating: 8,
@@ -80,7 +80,7 @@ module.exports = {
     {
       id_film: 9,
       title: "Sharknado",
-      genre: "Comedia",
+      genre: "Acción",
       minAge: 12,
       poster: "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/l525ueVZgelZoCSMgPZKKOEJMEC.jpg",
       rating: 9,
@@ -107,7 +107,7 @@ module.exports = {
     {
       id_film: 12,
       title: "Joker",
-      genre: "Accion",
+      genre: "Acción",
       minAge: 16,
       poster: "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/v0eQLbzT6sWelfApuYsEkYpzufl.jpg",
       rating: 9,
@@ -116,7 +116,7 @@ module.exports = {
     {
       id_film: 13,
       title: "Regreso al futuro",
-      genre: "Ciencia ficcion",
+      genre: "Acción",
       minAge: 12,
       poster: "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/ldJzO9D40mCVeDaZQ1986t8rguZ.jpg",
       rating: 7,
@@ -143,7 +143,7 @@ module.exports = {
     {
       id_film: 16,
       title: "El Show de Truman",
-      genre: "Ciencia ficcion",
+      genre: "Acción",
       minAge: 12,
       poster: "https://www.themoviedb.org/t/p/w1280/4BGVZSwv5n0hMIAWwiSjMFDQ63K.jpg",
       rating: 8,
@@ -152,7 +152,7 @@ module.exports = {
     {
       id_film: 17,
       title: "Coco",
-      genre: "Comedia",
+      genre: "Infantil",
       minAge:6,
       poster: "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/lUZZhYLLDU4g4XGQ5tvjYNVytxc.jpg",
       rating: 7,
@@ -161,7 +161,7 @@ module.exports = {
     {
       id_film: 18,
       title: "El señor de los anillos: El retorno del Rey",
-      genre: "Aventura",
+      genre: "Acción",
       minAge: 12,
       poster: "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/mWuFbQrXyLk2kMBKF9TUPtDwuPx.jpg",
       rating: 9,
@@ -179,7 +179,7 @@ module.exports = {
     {
       id_film: 20,
       title: "El gran Torino",
-      genre: "Accion",
+      genre: "Acción",
       minAge: 18,
       poster: "https://www.themoviedb.org/t/p/w1280/7w54KRHdRokgXqxL59GKVau8e6l.jpg",
       rating: 7,
@@ -206,7 +206,7 @@ module.exports = {
     {
       id_film: 23,
       title: "Jurassic Park",
-      genre: "Ciencia ficcion",
+      genre: "Acción",
       minAge: 12,
       poster: "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/lTeTHvfUHEJDK7o3jg06lYi2bLR.jpg",
       rating: 8,
@@ -215,7 +215,7 @@ module.exports = {
     {
       id_film: 24,
       title: "El caballero oscuro: La Leyenda renace",
-      genre: "Accion",
+      genre: "Acción",
       minAge: 12,
       poster: "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/rrS7K8tXVFUBliIKWaRuSq65nWr.jpg",
       rating: 10,
@@ -233,7 +233,7 @@ module.exports = {
     {
       id_film: 26,
       title: "La princesa prometida",
-      genre: "Aventura",
+      genre: "Acción",
       minAge: 12,
       poster: "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/nHDpaLB6gMKyD8hMtSthtV7yPt9.jpg",
       rating: 6,
@@ -242,7 +242,7 @@ module.exports = {
     {
       id_film: 27,
       title: "Tortugas Ninja",
-      genre: "Ciencia ficcion",
+      genre: "Acción",
       minAge: 8,
       poster: "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/uDJipJy4zwIN9F7stcaTGwfD9yP.jpg",
       rating: 8,
@@ -251,7 +251,7 @@ module.exports = {
     {
       id_film: 28,
       title: "Los Goonies",
-      genre: "Aventura",
+      genre: "Acción",
       minAge: 12,
       poster: "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/h0QoQSodfdd3VTBqlFb2QP7wIbL.jpg",
       rating: 9,
@@ -260,7 +260,7 @@ module.exports = {
     {
       id_film: 29,
       title: "Rocky",
-      genre: "Accion",
+      genre: "Acción",
       minAge: 12,
       poster: "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/mQKvObSEYESsDQXFWxfe0FARIP7.jpg",
       rating: 8,
@@ -277,12 +277,363 @@ module.exports = {
        },
      {
       id_film: 31,
-      title: "Monstruos S.A.",
+      title: "Encanto",
       genre: "Infantil",
       minAge: 3,
-      poster: "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/jTE3BLVCpYaR71L2U8SHV22HvEr.jpg",
+      poster: "	https://www.themoviedb.org/t/p/w1280/4JCyBaUJmMgmnDkLiOI8P3tDpqS.jpg",
       rating: 7,
-     sinopsis: "Monsters Inc. es la mayor empresa de miedo del mundo, y James P. Sullivan es uno de sus mejores empleados. Asustar a los niños no es un trabajo fácil, ya que todos creen que los niños son tóxicos y no pueden tener contacto con ellos. Pero un día una niña se cuela sin querer en la empresa, provocando el caos."
+     sinopsis: "Los Madrigal son una familia extraordinaria que vive en una casa mágica de un pueblo vibrante en las montañas de Colombia, escondidas en un 'Encanto'. La magia ha bendecido a cada niño de la familia con un don único, desde la superfuerza hasta el poder de sanar. A todos, excepto Mirabel, quien desea ser tan especial como el resto de su familia. Pero cuando la magia que rodea al Encanto está en peligro, Mirabel decide que ella, la única Madrigal sin ningún tipo de don único, puede ser la única esperanza de su excepcional familia."
+       },
+      {
+      id_film: 32,
+      title: "Top Gun: Maverick",
+      genre: "Acción",
+      minAge: 12,
+      poster: "https://www.themoviedb.org/t/p/w1280/AlWpEpQq0RgZIXVHAHZtFhEvRgd.jpg",
+      rating: 6,
+     sinopsis: "Después de más de 30 años de servicio como uno de los mejores aviadores de la Armada, Pete Maverick Mitchell se encuentra dónde siempre quiso estar, empujando los límites como un valiente piloto de prueba y esquivando el alcance en su rango, que no le dejaría volar emplazándolo en tierra. Cuando se encuentra entrenando a un destacamento de graduados de Top Gun para una misión especializada, Maverick se encuentra allí con el teniente Bradley Bradshaw, el hijo de su difunto amigo Goose."
+       },
+       {
+      id_film: 33,
+      title: "Thor: Love and Thunder",
+      genre: "Acción",
+      minAge: 12,
+      poster: "https://www.themoviedb.org/t/p/w1280/z9ajF6E39Hg2pXUofmUYgZHvdX.jpg",
+      rating: 8,
+     sinopsis: "El Dios del Trueno emprende un viaje que no se parece en nada a lo que se ha enfrentado hasta ahora: una búsqueda de la paz interior. Pero el retiro de Thor se ve interrumpido por un asesino galáctico conocido como Gorr el Carnicero de Dioses. Para hacer frente a la amenaza, Thor solicita la ayuda de Valkiria, de Korg y de su ex novia Jane Foster que, para sorpresa de Thor, empuña su martillo mágico, Mjolnir, como la Poderosa Thor. Juntos, se embarcan en una aventura cósmica en la que tendrán que descubrir el misterio de la venganza del Carnicero de Dioses y detenerlo antes de que sea demasiado tarde."
+       },
+        {
+      id_film: 34,
+      title: "Jurassic World: Dominion",
+      genre: "Acción",
+      minAge: 12,
+      poster: "https://www.themoviedb.org/t/p/w1280/VEZtsEQwsItZUoIdqzMwjvkwxI.jpg",
+      rating: 6,
+     sinopsis: "Cuatro años después de la destrucción de Isla Nublar, los dinosaurios conviven y cazan  con los seres humanos en todo el mundo. Este frágil equilibrio cambiará el futuro y decidirá, de una vez por todas, si los seres humanos seguirán en la cúspide de los depredadores en un planeta que comparten con los animales más temibles de la creación."
+       },
+         {
+      id_film: 35,
+      title: "Sin novedad al frente",
+      genre: "Infantil",
+      minAge: 18,
+      poster: "https://www.themoviedb.org/t/p/w1280/jPYPRS7LVmLDXGJ7VfBjXaV9eZr.jpg",
+      rating: 6,
+     sinopsis: "Paul Baumer y sus amigos Albert y Muller, incitados por sueños románticos de heroísmo, se alistan voluntariamente en el ejército alemán. Llenos de emoción y fervor patriótico, los muchachos marchan con entusiasmo hacia una guerra en la que creen. Pero una vez en el frente occidental, descubren el horror destructor del alma de la Primera Guerra Mundial"
+       },
+          {
+      id_film: 36,
+      title: "Spider-man: No way Home",
+      genre: "Acción",
+      minAge: 3,
+      poster: "https://www.themoviedb.org/t/p/w1280/miZFgV81xG324rpUknQX8dtXuBl.jpg",
+      rating: 7,
+     sinopsis: "Peter Parker es desenmascarado y por tanto no es capaz de separar su vida normal de los enormes riesgos que conlleva ser un súper héroe. Cuando pide ayuda a Doctor Strange, los riesgos pasan a ser aún más peligrosos, obligándole a descubrir lo que realmente significa ser Spider-Man."
+       },
+           {
+      id_film: 37,
+      title: "Avatar",
+      genre: "Acción",
+      minAge: 3,
+      poster: "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/kUAG4ZQcsNbRyiPyAr3hLdsVgAq.jpg",
+      rating: 9,
+     sinopsis: "Ambientada más de una década después de los acontecimientos de la primera película, 'Avatar: The Way of Water' empieza contando la historia de la familia Sully (Jake, Neytiri y sus hijos), los problemas que los persiguen, lo que tienen que hacer para mantenerse a salvo, las batallas que libran para seguir con vida y las tragedias que sufren."
+       },
+            {
+      id_film: 38,
+      title: "Sonic 2: La película",
+      genre: "Infantil",
+      minAge: 3,
+      poster: "	https://www.themoviedb.org/t/p/w1280/sJiHVM0A3OXDVxl4Z6a7ihMPHfm.jpg",
+      rating: 5,
+     sinopsis: "Después de establecerse en Green Hills, Sonic se muere por demostrar que tiene madera de auténtico héroe, pero Robotnik regresa con nuevo compañero Knuckles, en busca de una esmeralda que tiene el poder de destruir civilizaciones, pero Sonic no está solo, le ayudará Tails."
+       },
+        {
+      id_film: 39,
+      title: "El país de los sueños",
+      genre: "Infantil",
+      minAge: 3,
+      poster: "https://www.themoviedb.org/t/p/w1280/xvsftW0ai916VTtH2gPjSFC7mGN.jpg",
+      rating: 7,
+     sinopsis: "Una niña busca a su padre, desaparecido en un místico país de los sueños, con la ayuda de una gran criatura mitad hombre y mitad monstruo."
+       },
+         {
+      id_film: 40,
+      title: "Black Adam",
+      genre: "Acción",
+      minAge: 12,
+      poster: "https://www.themoviedb.org/t/p/w1280/moDLTCdLx38kMhN53KOTw0LdWMh.jpg",
+      rating: 6,
+     sinopsis: "Casi 5.000 años después de haber sido dotado de los poderes omnipotentes de los antiguos dioses y encarcelado con la misma rapidez, Black Adam es liberado de su tumba terrenal, listo para desatar su forma única de justicia en el mundo moderno."
+       },
+          {
+      id_film: 41,
+      title: "Socios y sabuesos",
+      genre: "Comedia",
+      minAge: 3,
+      poster: "https://www.themoviedb.org/t/p/w1280/mPRTuakCxvN5hm20vPHzSgmB52n.jpg",
+      rating: 5,
+     sinopsis: "Scott Turner es un meticuloso detective que está investigando un difícil caso de homicidio. Un día encuentra en la calle a un perro desgarbado, vulgar y con muy malos modales, al que decide adoptar. El chucho se convierte en el mejor ayudante que nunca ha tenido."
+       },
+           {
+      id_film: 42,
+      title: "El ultimo gran héroe",
+      genre: "Comedia",
+      minAge: 3,
+      poster: "https://www.themoviedb.org/t/p/w1280/wsqkU03Ujr4L6f0KoW1c5YTcjQP.jpg",
+      rating: 5,
+     sinopsis: "Danny Madigan es un fantasioso chico, ferviente admirador de Jack Slater, el mayor héroe del cine de acción. Nunca se pierde ninguna de sus películas, así que, ante el estreno de su última superproducción, el viejo acomodador del cine le regala al joven fan una entrada para que la vea en primicia. Gracias a esa entrada, que resulta tener poderes mágicos, Danny consigue introducirse en la pantalla y vivir trepidantes aventuras con Jack."
+       },
+            {
+      id_film: 43,
+      title: "Noche en el museo",
+      genre: "Comedia",
+      minAge: 3,
+      poster: "	https://www.themoviedb.org/t/p/w1280/5XG0xupSju8QS4KBnM8181Ebt0B.jpg",
+      rating: 7,
+     sinopsis: " Un padre divorciado trata de establecerse, impresionar a su hijo y encontrar su destino. Él se presenta para un trabajo como vigilante nocturno en el Museo Americano de Historia Natural de la ciudad de Nueva York y, posteriormente, descubre que los objetos expuestos, animados por un artefacto mágico de Egipto, vuelven a la vida durante la noche. Al principio le va muy mal tratando de mantener el orden y la calma en el museo, pero al final se vuelve muy buen amigo de todos y juntos ayudan a recuperar aquel artefacto mágico egipcio, ya que ha sido robado por los antiguos vigilantes del museo."
+       },
+             {
+      id_film: 44,
+      title: "La Máscara",
+      genre: "Comedia",
+      minAge: 18,
+      poster: "https://www.themoviedb.org/t/p/w1280/sW0tABq2gGGzdwHKhBs2hupEK11.jpg",
+      rating: 7,
+     sinopsis: "Stanley es un ingenuo empleado de banca incapaz de enterarse de cuándo se aprovechan de él, al que su jefe mangonea, al que su casera humilla, y al que solamente su perro parece ser capaz de aguantar. Su amigo Charlie le invita a ir al cabaret Coco Bongo para intentar estimularle y conseguir que espabile, pero antes de que eso ocurra, aparece la bella Tina Carlyle, que entra en el banco para hablar con Stanley y de paso fotografiar la caja fuerte con una mini cámara. Es entonces cuando Stanley encuentra una máscara que le da grandes poderes y que también le quita todos sus miedos: ahora es libre de actuar como quiera."
+       },
+              {
+      id_film: 45,
+      title: "Dos tontos muy tontos",
+      genre: "Comedia",
+      minAge: 18,
+      poster: "https://www.themoviedb.org/t/p/w1280/1Z8qsIw3c8YFPXu1MbAeNHehZJw.jpg",
+      rating: 7,
+     sinopsis: " Lloyd y Harry son dos amigos bastantes idiotas cuyas vidas son un auténtico desastre. El primero trabaja como chófer de una limousina, y el segundo se dedica a transportar perros. Su situación se complica aún más, cuando Lloyd se enamora de una chica adinerada que desaparece dejando olvidado un maletín. A partir de ese instante, Lloyd y Harry emprenderán un viaje por todo el país para devolvérselo."
+       },
+               {
+      id_film: 46,
+      title: "Solo en casa",
+      genre: "Comedia",
+      minAge: 8,
+      poster: "https://www.themoviedb.org/t/p/w1280/rjc2a9N5pro1xGsSvvnJ1JDXRGm.jpg",
+      rating: 8,
+     sinopsis: "Kevin McAllister es un niño de ocho años, miembro de una familia numerosa, que accidentalmente se queda abandonado en su casa cuando toda la familia se marcha a pasar las vacaciones a Francia. Kevin aprende a valerse por sí mismo e incluso a protegerse de Harry y Marv, dos bribones que se proponen asaltar todas las casas cerradas de su vecindario. Cuando su madre Kate lo hecha en falta, realiza un pintoresco viaje de vuelta contra reloj a Chicago para recuperar a su hijo."
+       },
+                {
+      id_film: 47,
+      title: "Dragon Ball Z: La resurreción de Freezer",
+      genre: "Acción",
+      minAge: 8,
+      poster: "	https://www.themoviedb.org/t/p/w1280/mbgpEDDQFFFQz2Q7T8bXpbeUkY9.jpg",
+      rating: 9,
+     sinopsis: "Después de que Bills, el Dios de la destrucción, decidiera no destruir la Tierra, se vive una gran época de paz. Hasta que Sorbet y Tagoma, antiguos miembros élite de la armada de Freezer, llegan a la Tierra con el objetivo de revivir a su líder por medio de las Bolas de Dragón. Su deseo es concedido y ahora Freezer planea su venganza en contra de los Saiyajin. La historia hace que una gran oleada de hombres bajo el mando de Freezer lo acompañe."
+       },
+                 {
+      id_film: 48,
+      title: "Los gemelos golpean dos veces",
+      genre: "Comedia",
+      minAge: 12,
+      poster: "https://www.themoviedb.org/t/p/w1280/z17mNScwFyZ9sOplnd2R9aQOmlr.jpg",
+      rating: 6,
+     sinopsis: "Dos gemelos que vinieron al mundo por un experimento de carácter científico se encuentran al cabo de los años, tras haber pasado la mayor parte de sus vidas separados. Una vez juntos tratan de encontrar a su madre que según parece reside cerca de la frontera de México. El viaje hasta allí será aprovechado por uno de ellos para entregar una valiosa mercancía."
+       },
+         {
+      id_film: 49,
+      title: "Terminator",
+      genre: "Acción",
+      minAge: 18,
+      poster: "https://www.themoviedb.org/t/p/w1280/kbPqRWsGS1siVUeEFVtLKloTG0Y.jpg",
+      rating: 8,
+     sinopsis: "Un cyborg ha sido enviado desde el futuro en una misión mortal: eliminar a Sarah Connor, una joven cuya vida tendrá una gran importancia en los próximos años. Sarah tiene sólo un protector —Kyle Reese— también enviado desde el futuro. El Terminator utiliza su inteligencia excepcional y fuerza para encontrar a Sarah, pero ¿hay alguna forma de detener al cyborg aparentemente indestructible?"
+       },
+          {
+      id_film: 50,
+      title: "Scary Movie",
+      genre: "Comedia",
+      minAge: 18,
+      poster: "	https://www.themoviedb.org/t/p/w1280/fHWR3YplPQWciYzxEity2kyDoDn.jpg",
+      rating: 8,
+     sinopsis: "Tras el asesinato de una bella estudiante, un grupo de adolescentes descubren que hay un asesino entre ellas. La heroína, Cindy, y su grupo de desconcertantes amigos, serán aterrorizados por un singular psicópata enmascarado que pretende vengarse de ellos por haberlo atropellado el pasado Halloween."
+       },
+           {
+      id_film: 51,
+      title: "Ace Ventura",
+      genre: "Comedia",
+      minAge: 12,
+      poster: "https://www.themoviedb.org/t/p/w1280/nITLSFHonQJGVrnfDzfNqvtbOjO.jpg",
+      rating: 6,
+     sinopsis: "El detective Ace Ventura, especializado en rescatar animales secuestrados, recibe el encargo de localizar y rescatar el delfin Copo de Nieve, mascota del equipo de fútbol de Miami, que ha sido secuestrado el día anterior a la gran final que debe disputar el equipo."
+       },
+            {
+      id_film: 52,
+      title: "Resacón en las Vegas",
+      genre: "Comedia",
+      minAge: 18,
+      poster: "https://www.themoviedb.org/t/p/w1280/rqeim09TdaflSvPNVnCTBjUHlKu.jpg",
+      rating: 9,
+     sinopsis: "Es la historia de una desmadrada despedida de soltero en la que el futuro novio y sus tres amigos, dos días antes de la boda, se montan la juerga padre en Las Vegas. Doug viaja a la ciudad del juego con sus mejores amigos Phil y Stu, así como su futuro cuñado Alan. La juerga es de campeonato y, como era de esperar, a la mañana siguiente tienen una resaca monumental. El problema es que, siendo incapaces de recordar nada de lo ocurrido durante la noche anterior, se encuentran con que el prometido ha desaparecido, topándose en su lugar con otras dos sorpresas en la suite del hotel: un tigre y un bebé."
+       },
+             {
+      id_film: 53,
+      title: "101 Dálmatas",
+      genre: "Infantil",
+      minAge: 3,
+      poster: "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/wny5QtN4D9KYRaW3jDCNMSCQ8gc.jpg",
+      rating: 7,
+     sinopsis: "Pongo y Perdita, los dalmatas protagonistas, son una feliz pareja canina que vive rodeada de sus cachorros junto a sus amos, Roger y Anita. Pero la felicidad no es eterna y hay una malvada mujer, que vive en una gran mansion, que es la mayor enemiga del perro.Cuando se entera de que los protagonistas tienen nada menos que quince cachorros dalmatas, su sueño de obtener un exclusivo abrigo de piel de los pequeños perros, se convierte en una obsesion. Para conseguirlo contrata a dos ladrones y pone en marcha un malvado plan con el unico fin de secuestrar a los dalmatas."
+       },
+              {
+      id_film: 54,
+      title: "Forrest Gump",
+      genre: "Comedia",
+      minAge: 12,
+      poster: "	https://www.themoviedb.org/t/p/w1280/azV6hV99lYkdhydsQbJCI6FqMl4.jpg",
+      rating: 9,
+     sinopsis: "Forrest Gump es un chico con deficiencias mentales no muy profundas y con alguna incapacidad motora que, a pesar de todo, llegará a convertirse, entre otras cosas, en un héroe durante la Guerra del Vietnam. Su persistencia y bondad le llevarán a conseguir una gran fortuna, ser objeto del clamor popular y a codearse con las más altas esferas sociales y políticas del país. Siempre sin olvidar a Jenny, su gran amor desde que era niño."
+       },
+               {
+      id_film: 55,
+      title: "Hércules",
+      genre: "Infantil",
+      minAge: 3,
+      poster: "	https://www.themoviedb.org/t/p/w1280/xlqfsD5hFohzDL0Cf11bxbUrMuZ.jpg",
+      rating: 9,
+     sinopsis: "Hércules, el hijo de Hera y el dios Zeus, es robado del Olimpo por los secuaces de Hades, que tienen la misión de despojarle de su inmortalidad. Hércules crecerá en un mundo de mortales hasta que le llegue la hora de regresar al Olimpo."
+       },
+                {
+      id_film: 56,
+      title: "El Grinch",
+      genre: "Comedia",
+      minAge: 8,
+      poster: "	https://www.themoviedb.org/t/p/w1280/yCZ3xAPM5009ltBUUwPtCeWKQWy.jpg",
+      rating: 6,
+     sinopsis: "Cada año, en Navidad, los lugareños perturban su pacífica soledad con celebraciones cada vez más desmesuradas, luminosas y ruidosas. Cuando los Quién declaran que ese año van a preparar una Navidad el triple de grande, el Grinch se da cuenta de que solo hay un modo de recuperar algo de paz y silencio: robar la Navidad. Para ello, decide hacerse pasar por Santa Claus en Nochebuena, haciéndose con un reno muy peculiar para tirar de su trineo. Mientras tanto, en Villa Quién, una dulce niña llamada Cindy-Lou, desbordante de espíritu navideño, planea con sus amigos atrapar a Papá Noel durante su visita en Nochebuena para darle las gracias por ayudar a su trabajadora madre. Sin embargo, a medida que se acerca la noche mágica, sus buenas intenciones amenazan con chocar con las del Grinch, mucho más perversas."
+       },
+                 {
+      id_film: 57,
+      title: "La Familia Adams",
+      genre: "Comedia",
+      minAge: 12,
+      poster: "https://www.themoviedb.org/t/p/w1280/6RqnaUcDH2dpR2kmdnmSEHTcS0V.jpg",
+      rating: 6,
+     sinopsis: "El delirante y gótico estilo de vida de la peculiar familia Addams se ve amenazado peligrosamente cuando el codicioso dúo que forman madre e hijo, con la ayuda de un abogado sin ningún escrúpulos, conspiran para hacerse con la fortuna familiar..."
+       },
+                  {
+      id_film: 58,
+      title: "Los Simpsons: La película",
+      genre: "Infantil",
+      minAge: 3,
+      poster: "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/xLy8FyvbSDCnl66lKS8i2Qc6hE3.jpg",
+      rating: 6,
+     sinopsis: "Homer debe salvar al mundo de una catástrofe que él mismo ha provocado. Todo comienza con Homer, su nueva mascota, un cerdo, y un silo lleno de excrementos que tiene una fuga, una combinación que desencadena un desastre distinto a todo lo que Springfield haya experimentado jamás. Mientras Marge está indignada por la monumental metedura de pata de su patán marido, una turba vengativa cae sobre el hogar de los Simpson..."
+       },
+                   {
+      id_film: 59,
+      title: "El bebé jefazo: Negocios de familia",
+      genre: "Infantil",
+      minAge: 3,
+      poster: "https://www.themoviedb.org/t/p/w1280/hvO2pc9X7kt7HZr5liSlk2MQA0Z.jpg",
+      rating: 6,
+     sinopsis: "Los hermanos Templeton se han convertido en adultos y se han alejado el uno del otro, pero un nuevo jefe bebé con un enfoque de vanguardia está a punto de unirlos nuevamente e inspirar un nuevo negocio familiar."
+       },
+                    {
+      id_film: 60,
+      title: "Rambo: Acorralado Parte II",
+      genre: "Acción",
+      minAge: 18,
+      poster: "https://www.themoviedb.org/t/p/w1280/pDsrygpyGl5o5hkvpV5JzK85dYE.jpg",
+      rating: 8,
+     sinopsis: "Rambo es excarcelado y enviado de vuelta al Vietnam con una nueva misión: averiguar el paradero de unos soldados norteamericanos desaparecidos. Tras saltar en paracaídas en la jungla, portando únicamente un cuchillo y un arco con flechas, se le dice que no ataque al enemigo y que sólo haga fotografías de reconocimiento. Pero el plan no saldrá como estaba previsto"
+       },
+                     {
+      id_film: 61,
+      title: "Conan, el destructor",
+      genre: "Acción",
+      minAge: 18,
+      poster: "https://www.themoviedb.org/t/p/w1280/m5i7S46DT1ESy7URkh2l92awGRr.jpg",
+      rating: 9,
+     sinopsis: "La poderosa Reina Taramis promete a Conan hacer volver a su amada del reino de la muerte, pero le impone una condición: debe traerle un legendario cuerno incrustado de piedras preciosas y una bella y joven princesa. Lo que Conan ignora es que la Reina quiere utilizar el cuerno para despertar al durmiente dios Dagoth y sacrificarle a la joven princesa. Enfrentado con enemigos mortales y sobrenaturales, Conan debe convocar a las fuerzas del Bien para derrotar a Taramis e incluso al mismísimo dios Dagoth."
+       },
+                      {
+      id_film: 62,
+      title: "Kill Bill",
+      genre: "Acción",
+      minAge: 18,
+      poster: "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/lfj709InbmljVqAXgUk2qjnujNN.jpg",
+      rating: 8,
+     sinopsis: "Uma Thurman es una asesina que, el día de su boda, es atacada por los miembros de la banda de su jefe, Bill (David Carradine). Logra sobrevivir al ataque, aunque queda en coma. Cinco años después despierta con un trozo de metal en la cabeza y un gran deseo de venganza en su corazón."
+       },
+                       {
+      id_film: 63,
+      title: "Los Vengadores",
+      genre: "Acción",
+      minAge: 12,
+      poster: "	https://www.themoviedb.org/t/p/w1280/ugX4WZJO3jEvTOerctAWJLinujo.jpg",
+      rating: 8,
+     sinopsis: "Cuando un enemigo inesperado surge como una gran amenaza para la seguridad mundial, Nick Fury, director de la Agencia SHIELD, decide reclutar a un equipo para salvar al mundo de un desastre casi seguro."
+       },
+                        {
+      id_film: 64,
+      title: "Superman",
+      genre: "Acción",
+      minAge: 12,
+      poster: "https://www.themoviedb.org/t/p/w1280/d7px1FQxW4tngdACVRsCSaZq0Xl.jpg",
+      rating: 8,
+     sinopsis: "Desde una galaxia remota, un recién nacido es enviado por sus padres al espacio debido a la inminente destrucción del planeta donde viven. La nave aterriza en la Tierra, y el niño es adoptado por unos granjeros que le inculcan los mejores valores humanos. Con los años el joven se irá a Metrópolis y allí usará sus poderes sobrenaturales para luchar contra el mal..."
+       },
+                         {
+      id_film: 65,
+      title: "Cars",
+      genre: "Infantil",
+      minAge: 3,
+      poster: "https://www.themoviedb.org/t/p/w1280/nqii8TqllZRainaNhQkJLNoSbMv.jpg",
+      rating: 9,
+     sinopsis: "El aspirante a campeón de carreras Rayo McQueen está sobre la vía rápida al éxito, la fama y todo lo que él había soñado, hasta que por error toma un desvío inesperado en la polvorienta y solitaria Ruta 66. Su actitud arrogante se desvanece cuando llega a una pequeña comunidad olvidada que le enseña las cosas importantes de la vida que había olvidado."
+       },
+                          {
+      id_film: 66,
+      title: "Ocean's Eleven",
+      genre: "Acción",
+      minAge: 18,
+      poster: "https://www.themoviedb.org/t/p/w1280/dHEqsdjGL17XB7SZH9It4ntbReT.jpg",
+      rating: 7,
+     sinopsis: "Danny Ocean es un carismático ladrón que, tan sólo 24 horas después de cumplir una larga condena en prisión, ya está planeando su próximo delito. Su objetivo: realizar el mayor atraco de casinos de la historia. Para ello formará un equipo de once hombres, cada uno de ellos el mejor en su campo. Sin embargo surgirá un problema inesperado: el dueño de los locales, Terry Benedic, está saliendo con Tess, su ex-mujer."
+       },
+                           {
+      id_film: 67,
+      title: "Predator: La presa",
+      genre: "Acción",
+      minAge: 18,
+      poster: "https://www.themoviedb.org/t/p/w1280/sNAMqQ9T7YnXnvUSufeWzaRgK6Y.jpg",
+      rating: 6,
+     sinopsis: "Ambientada hace 300 años en la Nación Comanche. Naru es una joven guerrera, feroz y altamente hábil, que se crió a la sombra de algunos de los cazadores más legendarios que deambulan por las Grandes Llanuras. Cuando el peligro amenaza su campamento, se dispone a proteger a su gente. La presa a la que acecha y, en última instancia, se enfrenta, resulta ser un depredador alienígena evolucionado con un arsenal técnicamente avanzado, lo que deriva en un enfrentamiento cruel y aterrador entre los dos adversarios."
+       },
+                            {
+      id_film: 68,
+      title: "Alien, el octavo pasajero",
+      genre: "Acción",
+      minAge: 18,
+      poster: "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/pZ9cAe5FxexJjpCaeiETbXzz3Fs.jpg",
+      rating: 8,
+     sinopsis: "De regreso a la Tierra, la nave de carga Nostromo interrumpe su viaje y despierta a sus siete tripulantes. El ordenador central, MADRE, ha detectado la misteriosa transmisión de una forma de vida desconocida, procedente de un planeta cercano aparentemente deshabitado. La nave se dirige entonces al extraño planeta para investigar el origen de la comunicación."
+       },
+      {
+      id_film: 69,
+      title: "A todo tren 2: Sí, les ha pasado otra vez",
+      genre: "Infantil",
+      minAge: 3,
+      poster: "https://www.themoviedb.org/t/p/w1280/cIiADRt9KGEqYy1293BBBm2IQG.jpg",
+      rating: 9,
+     sinopsis: "Hace un año Ricardo (Santiago Segura) y Felipe (Leo Harlem), encargados de llevar a los niños a un campamento, se quedaron fuera del tren dejando a los niños dentro. Clara (Paz Vega) no se fía ya de ellos y decide este año llevar a los niños personalmente con ayuda de su amiga Susana (Paz Padilla). Sin embargo, ahora serán ellas las que a raíz de un accidente se separen de los niños. Secuela de 'A todo tren. Destino Asturias'."
+       },
+       {
+      id_film: 70,
+      title: "Torrente, el brazo tonto de la ley",
+      genre: "Comedia",
+      minAge: 18,
+      poster: "https://www.themoviedb.org/t/p/w1280/3wAeqkJ8vq7TjkfUp4ikHT15oVn.jpg",
+      rating: 10,
+     sinopsis: "Torrente es un policía español, fascista, machista, racista, alcohólico y del Atleti. En su mismo inmueble vive un chaval, Rafi, al que le gustan las peliculas de acción y las pistolas, y que vive con su madre y su prima Amparito, una ninfómana. Juntos, Torrente y Rafi, patrullarán por la noche las calles de la ciudad."
        },
   ], {});
    
